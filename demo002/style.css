@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 8px 16px;
+}
