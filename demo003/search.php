@@ -1,7 +1,6 @@
 
 <?php
 //搜尋主題，用LIKE %keyword% 語法，將搜尋到的結果列表顯示
-require_once("conn.php");
 session_start();
 
 
@@ -40,7 +39,7 @@ session_start();
     }
     
 
-    $db = mysqli_connect("localhost", "root", "123456", "member");
+    $db = mysqli_connect("localhost", "", "", "member");
     $stmt = $db->prepare("SELECT * FROM board WHERE boardsubject LIKE ? OR boardname LIKE ? OR boardcontent LIKE ?");
     $keyword = "%$keyword%";
     $stmt->bind_param("sss", $keyword, $keyword, $keyword);
