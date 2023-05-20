@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect('localhost', 'root', '123456', 'member');
+$db = mysqli_connect('localhost', '', '', 'member');
 if (mysqli_connect_errno()) {
     die('Failed to connect to MySQL: ' . mysqli_connect_error());
 }
