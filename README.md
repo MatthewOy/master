@@ -1,5 +1,4 @@
-# Welcome to GitHub Desktop!
+php練功用，雜項:
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+1.demo001:抓區間質數&總和、簡易pb&pe估價
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
