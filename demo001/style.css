@@ -1,0 +1,10 @@
+.form {
+    border: 1px solid black;
+    padding: 10px;
+    width: 30vw;
+    height: 30vh;
+}
+.label, .btn {
+    font-weight: bold;
+    color: black;
+}
